@@ -19,3 +19,7 @@ group :test do
   gem "factory_girl_rails"
   gem "timecop"
 end
+
+group :development do
+  gem 'quiet_assets'
+end
