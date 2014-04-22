@@ -12,4 +12,8 @@ class Publisher < ActiveRecord::Base
     end
     true
   end
+
+  def current_theme
+    parent ? parent.theme : theme
+  end
 end
